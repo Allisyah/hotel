@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+
 use Livewire\Component;
 use App\Models\Booking;
 use Livewire\WithPagination;
@@ -13,6 +14,8 @@ class NewBooking extends Component
     public $sortDirection = 'desc';
 
     public $customer_name, $customer_email, $booking_code, $room_id, $id;
+
+
 
     public $updateMode = false, $msg='';
 
